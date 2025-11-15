@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+}
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    
+}
+#cla-contain{
+    border: 10px solid black;
+    background-color: grey;
+    border-radius: 20px;
+
+}
+input{
+    padding: 30px;
+    margin-left: 90px;
+    background-color: transparent;
+    text-align: right;
+    width: 200px;
+    background-color: black;
+     font-size: 25px;
+     color: rgb(237, 236, 236);
+}
+input::placeholder{
+    color: rgb(237, 236, 236);
+}
+
+button{
+    height: 60px;
+    width: 60px;
+    margin: 15px;
+    border-radius: 35%;
+    font-size: 25px;
+    background-color: black; 
+    color: white;
+    cursor: pointer;
+}
+#equalto{
+    background-color: orange;
+}
+.operator{
+    color: green;
+}
+
